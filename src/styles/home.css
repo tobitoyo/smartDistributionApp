@@ -1,0 +1,22 @@
+
+
+
+
+.home-text p {
+  margin-top: 3rem;
+}
+
+.home-btn {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #AD4C4C;
+  background-color: white;
+  border: .1rem solid #AD4C4C;
+  border-radius: .5rem;
+  padding: .8rem 1.8rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+

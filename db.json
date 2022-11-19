@@ -1,0 +1,51 @@
+{
+  "orders": [
+    {
+      "pName": "james jo",
+      "cName": "Joan",
+      "cPhone": "2348166077878",
+      "cEmail": "h2gmail.co",
+      "cAddress": "Lekki",
+      "oDetails": "React js 234",
+      "id": "SD23260522LA",
+      "dateGenerated": "Fri Nov 18 2022 04:41:26 GMT-0800 (Pacific Standard Time)",
+      "driver": []
+    },
+    {
+      "pName": "Tay Low",
+      "cName": "Rain",
+      "cPhone": "234653234232",
+      "cEmail": "raain@gmail.com",
+      "cAddress": "Lekki",
+      "oDetails": "@345 Vanila js",
+      "id": "SD23221918LA",
+      "dateGenerated": "2022-11-18T15:23:39.230Z",
+      "driver": []
+    },
+    {
+      "pName": "Han Co",
+      "cName": "Matt",
+      "cPhone": "2348263746847",
+      "cEmail": "matt@dufu.co",
+      "cAddress": "Luton",
+      "oDetails": "JavaScript Deepdive",
+      "id": "SD23292801LA",
+      "dateGenerated": "2022-11-18T15:34:44.797Z",
+      "driver": []
+    },
+    {
+      "pName": "Jo Jane",
+      "cName": "Josh",
+      "cPhone": "08023423456",
+      "cEmail": "josh@dufu.com",
+      "cAddress": "Lekki",
+      "oDetails": "Lavarel and php",
+      "id": "SD23294719LA",
+      "dateGenerated": "2022-11-19T16:00:40.429Z",
+      "drivers": [
+        "No driver assigned yet"
+      ],
+      "driver": "No driver assigned yet"
+    }
+  ]
+}

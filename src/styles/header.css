@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif ;
+  font-style: normal;
+  font-size: 62.5%;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+ 
+}
+
+.company-name {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.header-links {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left:  2rem;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-btn {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #AD4C4C;
+  background-color: white;
+  border: .1rem solid #AD4C4C;
+  border-radius: .5rem;
+  padding: .5rem .8rem;
+  margin-left:  2rem;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 76.8rem) {
+  html {
+    font-size: 100%;
+  }
+
+  .hamburger {
+    display:block;
+  }
+
+  .header-btn {
+    padding: .8rem 1.8rem;
+  }
+}
