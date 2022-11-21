@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2c731c9ec59acc54998a",
+    "revision": "2d86d1a8bfee5893cc5f",
     "url": "/github.io/smartDistributionApp/static/css/main.1b9a1ebc.chunk.css"
   },
   {
-    "revision": "2c731c9ec59acc54998a",
-    "url": "/github.io/smartDistributionApp/static/js/main.44c59f46.chunk.js"
+    "revision": "2d86d1a8bfee5893cc5f",
+    "url": "/github.io/smartDistributionApp/static/js/main.42cd520a.chunk.js"
   },
   {
     "revision": "9a50fffb2ba9f0f8020f",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/github.io/smartDistributionApp/static/js/3.243e8d68.chunk.js"
   },
   {
-    "revision": "c74dc73504f78d54e082d913f0982288",
+    "revision": "1b543c2a167de280a0e35f3cb957079c",
     "url": "/github.io/smartDistributionApp/index.html"
   }
 ];
