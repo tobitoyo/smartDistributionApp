@@ -9,10 +9,10 @@ import Login from "./pages/login";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route exact path="/smartDistributionApp" component={<Home />} />
-          <Route path="/" element={<Home />} />
+          {/* <Route exact path="/smartDistributionApp" component={<Home />} /> */}
+          <Route exact path="/" element={<Home />} />
           <Route path="/packaging" element={<Packaging />} />
           <Route path="/Tracker" element={<Tracker />} />
           <Route path="/Drivers" element={<Drivers />} />
