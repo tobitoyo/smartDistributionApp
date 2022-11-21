@@ -1,7 +1,7 @@
 {
   "main.css": "/github.io/smartDistributionApp/static/css/main.1b9a1ebc.chunk.css",
-  "main.js": "/github.io/smartDistributionApp/static/js/main.86535f12.chunk.js",
-  "main.js.map": "/github.io/smartDistributionApp/static/js/main.86535f12.chunk.js.map",
+  "main.js": "/github.io/smartDistributionApp/static/js/main.44c59f46.chunk.js",
+  "main.js.map": "/github.io/smartDistributionApp/static/js/main.44c59f46.chunk.js.map",
   "runtime~main.js": "/github.io/smartDistributionApp/static/js/runtime~main.faf9a63e.js",
   "runtime~main.js.map": "/github.io/smartDistributionApp/static/js/runtime~main.faf9a63e.js.map",
   "static/js/2.095e9196.chunk.js": "/github.io/smartDistributionApp/static/js/2.095e9196.chunk.js",
@@ -9,7 +9,7 @@
   "static/js/3.243e8d68.chunk.js": "/github.io/smartDistributionApp/static/js/3.243e8d68.chunk.js",
   "static/js/3.243e8d68.chunk.js.map": "/github.io/smartDistributionApp/static/js/3.243e8d68.chunk.js.map",
   "index.html": "/github.io/smartDistributionApp/index.html",
-  "precache-manifest.43b6d2f9342954e65313ed90e873830f.js": "/github.io/smartDistributionApp/precache-manifest.43b6d2f9342954e65313ed90e873830f.js",
+  "precache-manifest.9c9a8db47d41b74881ec1cf5afcd9d21.js": "/github.io/smartDistributionApp/precache-manifest.9c9a8db47d41b74881ec1cf5afcd9d21.js",
   "service-worker.js": "/github.io/smartDistributionApp/service-worker.js",
   "static/css/main.1b9a1ebc.chunk.css.map": "/github.io/smartDistributionApp/static/css/main.1b9a1ebc.chunk.css.map"
 }

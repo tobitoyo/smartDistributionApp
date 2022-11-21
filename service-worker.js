@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/github.io/smartDistributionApp/precache-manifest.43b6d2f9342954e65313ed90e873830f.js"
+  "/github.io/smartDistributionApp/precache-manifest.9c9a8db47d41b74881ec1cf5afcd9d21.js"
 );
 
 workbox.clientsClaim();
