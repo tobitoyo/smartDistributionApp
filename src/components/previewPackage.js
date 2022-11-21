@@ -2,7 +2,7 @@ import React from "react";
 
 const OrderPreview = (props) => {
   return (
-    <div>
+    <div className="preview-div">
       <h1  className="heading">Order Preview</h1>
       
       <h5 className="input-label-preview">Customer Name</h5>

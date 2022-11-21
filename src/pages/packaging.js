@@ -112,8 +112,6 @@ const Packaging = () => {
   const handlePreviewBtn = (e) => {
     e.preventDefault();
 
-    console.log(states.errors)
-
     if (validateForm(states.errors)){
       setStates({...states, showPreview: true, displayError: false})
     }
@@ -143,7 +141,8 @@ const Packaging = () => {
       id: states.trackingCode,
       dateGenerated: new Date(),
       drivers: ["No driver assigned yet"],
-      driver: "No driver assigned yet"
+      // driver: "No driver assigned yet"
+      driversPhoneList: ["None"]
     }
 
     axios

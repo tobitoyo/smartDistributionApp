@@ -3,6 +3,7 @@ import axios from "axios";
 import Header from "../components/header";
 import Input from "../components/input";
 import Button from "../components/button";
+import "../styles/tracking.css"
 
 
 
@@ -39,15 +40,16 @@ const Tracker = () => {
     setStates({...states, [name]:value})
   }
 
+
+  const code = states.trackCode
+  const orders = states.orders
+  const trackedOrder = orders.find( order => order.id === code)
+  const driversList = states.trackedOrder.drivers
+  const driversPhoneList = states.trackedOrder.driversPhoneList
+
   const handleSubmit = (e) => {
     e.preventDefault()
     
-    let code = states.trackCode
-
-    let orders = states.orders
-    console.log( "from submit", orders)
-    const trackedOrder = orders.find( order => order.id === code)
-
     // Checking if the code exists
     if (trackedOrder){
       axios
@@ -68,18 +70,7 @@ const Tracker = () => {
 
   }
 
-    // const trackedOrder = states.orders.filter(order => order.id === states.trackCode)
-  // let copyTrackedOrder = trackedOrder['0']
-
-  console.log(states.orders)
-  console.log("trackCode is" , states.trackCode)
-  console.log("tracked order is ", states.trackedOrder)
-  // console.log("tracked order name is ",trackedOrder["0"].cName)
-  // console.log(typeof(trackedOrder["0"]))
-  // console.log(trackedOrder.length)
-  // console.log(Object.values(trackedOrder["0"]))
-  // console.log("copy is " , copyTrackedOrder)
-  // console.log(copyTrackedOrder)
+    
 
 
   return(
@@ -102,38 +93,43 @@ const Tracker = () => {
         btnClick={handleSubmit}
       />
 
+      <p>You can use this tracking code SD23260522LA</p>
+
       {states.showOrder && 
-      <div>
-        <h3>Customer Name</h3>
-        <h4>{states.trackedOrder.cName}</h4>
+      <div className="preview-div">
+        <h3 className="input-label-preview">Customer Name</h3>
+        <h4 className="output">{states.trackedOrder.cName}</h4>
 
-        <h3>Customer Phone</h3>
-        <h4>{states.trackedOrder.cPhone}</h4>
+        <h3 className="input-label-preview">Customer Phone</h3>
+        <h4 className="output">{states.trackedOrder.cPhone}</h4>
 
-        <h3>Customer Email</h3>
-        <h4>{states.trackedOrder.cEmail}</h4>
+        <h3 className="input-label-preview">Customer Email</h3>
+        <h4 className="output">{states.trackedOrder.cEmail}</h4>
 
-        <h3>Customer Address</h3>
-        <h4>{states.trackedOrder.cAddress}</h4>
+        <h3 className="input-label-preview">Customer Address</h3>
+        <h4 className="output">{states.trackedOrder.cAddress}</h4>
 
-        <h3>Order Details</h3>
-        <h4>{states.trackedOrder.oDetails}</h4>
+        <h3 className="input-label-preview">Order Details</h3>
+        <h4 className="output">{states.trackedOrder.oDetails}</h4>
 
-        <h3>Driver Name</h3>
-        <h4>{states.trackedOrder.driver}</h4>
+        <h3 className="input-label-preview">Driver Name</h3>
+        <h4 className="output">{driversList[0]}</h4>
+
+        <h3 className="input-label-preview">Driver Phone Number</h3>
+        <h4 className="output">{driversPhoneList[0]}</h4>
       </div>
       }
 
       {states.showOrderError && 
-        <div>
-          <h3>No Order has this tracking code</h3>
-          <p>Enter Another tracking Code</p>
+        <div className="error-two">
+          <h3 >No Order has this tracking code</h3>
+          <p >Enter another tracking Code</p>
         </div>
       }
 
       {states.showCodeError && 
-        <div>
-          <p>Enter a tracking Code</p>
+        <div className="error-two">
+          <p >Enter a tracking Code</p>
         </div>
       }
 

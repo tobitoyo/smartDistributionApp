@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Packaging from "./pages/packaging";
 import Tracker from "./pages/tracking";
 import Drivers from "./pages/drivers";
+import Login from "./pages/login";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/packaging" element={<Packaging />} />
           <Route path="/Tracker" element={<Tracker />} />
           <Route path="/Drivers" element={<Drivers />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

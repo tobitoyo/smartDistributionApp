@@ -8,22 +8,22 @@ import Button from "../components/button";
 const Home = () => {
 
   const navigate = useNavigate();
-  const navigateStart =  () => {
-    navigate('/Tracker')
+  const navigateLogin =  () => {
+    navigate('/login')
   }
 
   return (
     <div className="home-div">
       <Header />
       <div className="home-text">
-        <h1>Real-time cargo tracking</h1>
+        <h1>Real-Time Cargo Tracking</h1>
         <p>Finding & tracking your goods, fast</p>
       </div>
 
       <Button 
         className="home-btn" 
         title="Get Started"
-        btnClick={navigateStart}
+        btnClick={navigateLogin}
         />
     </div>
   )

@@ -9,7 +9,13 @@
       "oDetails": "React js 234",
       "id": "SD23260522LA",
       "dateGenerated": "Fri Nov 18 2022 04:41:26 GMT-0800 (Pacific Standard Time)",
-      "driver": []
+      "drivers": [
+        "No driver assigned yet"
+      ],
+      "driversPhoneList": [
+        "None"
+      ],
+      "driver": "Maina"
     },
     {
       "pName": "Tay Low",
@@ -20,7 +26,15 @@
       "oDetails": "@345 Vanila js",
       "id": "SD23221918LA",
       "dateGenerated": "2022-11-18T15:23:39.230Z",
-      "driver": []
+      "drivers": [
+        "Git",
+        "No driver assigned yet"
+      ],
+      "driversPhoneList": [
+        "08012312345",
+        "None"
+      ],
+      "driver": "No driver assigned yet"
     },
     {
       "pName": "Han Co",
@@ -31,7 +45,16 @@
       "oDetails": "JavaScript Deepdive",
       "id": "SD23292801LA",
       "dateGenerated": "2022-11-18T15:34:44.797Z",
-      "driver": []
+      "drivers": [
+        "James Jo",
+        "Gaet",
+        "No driver assigned yet"
+      ],
+      "driversPhoneList": [
+        "081234263722",
+        "None"
+      ],
+      "driver": "Gaet"
     },
     {
       "pName": "Jo Jane",
@@ -45,7 +68,30 @@
       "drivers": [
         "No driver assigned yet"
       ],
+      "driversPhoneList": [
+        "None"
+      ],
       "driver": "No driver assigned yet"
+    }
+  ],
+  "users": [
+    {
+      "email": "james@dufu.com",
+      "password": "AD!@#MIN",
+      "id": "1",
+      "type": "admin"
+    },
+    {
+      "email": "jane@dufu.com",
+      "password": "CUS!@TOMER",
+      "id": "1",
+      "type": "customer"
+    },
+    {
+      "email": "drive@dufu.com",
+      "password": "DRI!@VER",
+      "id": "1",
+      "type": "driver"
     }
   ]
 }

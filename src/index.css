@@ -27,6 +27,7 @@ code {
 .App {
   padding: 2rem;
   background-color: #faebd7;
+  min-height: 100vh;
 }
 
 @media screen and (min-width: 76.8rem) {
