@@ -11,7 +11,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/smartDistributionApp" element={<Home />} />
+          <Route exact path="/smartDistributionApp" component={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/packaging" element={<Packaging />} />
           <Route path="/Tracker" element={<Tracker />} />
           <Route path="/Drivers" element={<Drivers />} />
