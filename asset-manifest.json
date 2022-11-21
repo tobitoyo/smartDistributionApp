@@ -1,15 +1,15 @@
 {
-  "main.css": "/github.io/static/css/main.1b9a1ebc.chunk.css",
-  "main.js": "/github.io/static/js/main.961de4d9.chunk.js",
-  "main.js.map": "/github.io/static/js/main.961de4d9.chunk.js.map",
-  "runtime~main.js": "/github.io/static/js/runtime~main.29413c8f.js",
-  "runtime~main.js.map": "/github.io/static/js/runtime~main.29413c8f.js.map",
-  "static/js/2.095e9196.chunk.js": "/github.io/static/js/2.095e9196.chunk.js",
-  "static/js/2.095e9196.chunk.js.map": "/github.io/static/js/2.095e9196.chunk.js.map",
-  "static/js/3.243e8d68.chunk.js": "/github.io/static/js/3.243e8d68.chunk.js",
-  "static/js/3.243e8d68.chunk.js.map": "/github.io/static/js/3.243e8d68.chunk.js.map",
-  "index.html": "/github.io/index.html",
-  "precache-manifest.32edd961e380ba1691a275f120f79b32.js": "/github.io/precache-manifest.32edd961e380ba1691a275f120f79b32.js",
-  "service-worker.js": "/github.io/service-worker.js",
-  "static/css/main.1b9a1ebc.chunk.css.map": "/github.io/static/css/main.1b9a1ebc.chunk.css.map"
+  "main.css": "/github.io/smartDistributionApp/static/css/main.1b9a1ebc.chunk.css",
+  "main.js": "/github.io/smartDistributionApp/static/js/main.961de4d9.chunk.js",
+  "main.js.map": "/github.io/smartDistributionApp/static/js/main.961de4d9.chunk.js.map",
+  "runtime~main.js": "/github.io/smartDistributionApp/static/js/runtime~main.faf9a63e.js",
+  "runtime~main.js.map": "/github.io/smartDistributionApp/static/js/runtime~main.faf9a63e.js.map",
+  "static/js/2.095e9196.chunk.js": "/github.io/smartDistributionApp/static/js/2.095e9196.chunk.js",
+  "static/js/2.095e9196.chunk.js.map": "/github.io/smartDistributionApp/static/js/2.095e9196.chunk.js.map",
+  "static/js/3.243e8d68.chunk.js": "/github.io/smartDistributionApp/static/js/3.243e8d68.chunk.js",
+  "static/js/3.243e8d68.chunk.js.map": "/github.io/smartDistributionApp/static/js/3.243e8d68.chunk.js.map",
+  "index.html": "/github.io/smartDistributionApp/index.html",
+  "precache-manifest.6ca2405818c4a2515e9cd9a3772e0d8f.js": "/github.io/smartDistributionApp/precache-manifest.6ca2405818c4a2515e9cd9a3772e0d8f.js",
+  "service-worker.js": "/github.io/smartDistributionApp/service-worker.js",
+  "static/css/main.1b9a1ebc.chunk.css.map": "/github.io/smartDistributionApp/static/css/main.1b9a1ebc.chunk.css.map"
 }
